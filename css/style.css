@@ -1,0 +1,790 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+                                         /*// header*/
+
+
+.fon{
+    background-position: center center;
+    background-attachment: scroll;
+    background-image: url("https://cleaning-house.kg/images/tild3331-3635-4330-b962-643537656435__3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    width: 1424px;
+}
+
+.header{
+    position: fixed;
+}
+/*.header-nav:hover{*/
+/*    background: white;*/
+/*    transition: 1s;*/
+/*    width: 1500px;*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: center;*/
+/*}*/
+
+.img1{
+    width: 100px;
+}
+
+.header-nav a{
+    color: #383636;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.header-nav button{
+    width: 270px;
+    height: 50px;
+    border-radius: 20px;
+    border: transparent;
+    background: #af454b;
+}
+
+.header-nav button a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    z-index: 990;
+}
+
+                                         /*hero*/
+
+
+.hero-block h1{
+    font-size: 50px;
+    padding-top: 100px;
+    font-family: 'Montserrat',sans-serif;
+}
+.hero-block{
+    padding-bottom: 100px;
+}
+.hero-block-sp{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    border: transparent;
+    background: #af454b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-block-sp1{
+    display: flex;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 25px;
+
+}
+
+.hero-block-sp1 span{
+    color: #af454b;
+    padding: 0 10px;
+}
+
+.text{
+    font-size: 22px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    line-height: 1.55;
+}
+ .p{
+    color: #d95353;
+}
+.s{
+    color: #d95353;
+}
+.a{
+    color: #d95353;
+}
+
+.sad{
+    padding-top: 30px;
+}
+
+.btn-1{
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    background: #af454b;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: 4px solid #9b3339;
+
+}
+.btn-2{
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    background: #43b943;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: 4px solid #3b983b;
+    margin-left: 50px;
+}
+
+.ser{
+    color: black;
+    font-size: 50px;
+    padding: 100px;
+}
+.li{
+    color: #af454b;
+}
+.block-di{
+    height: 200px;
+    width: 400px;
+    background: #9b3339;
+
+}
+.block-di h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 50px;
+
+}
+
+.general-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.general-block-save{
+    width: 400px;
+    height: 900px;
+    background: rgba(224, 221, 221, 0.49);
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.30);
+}
+.block-di h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    border-bottom: 3px solid white;
+    width: 300px;
+    margin-left: 30px;
+}
+.block-si{
+    padding-top: 30px;
+
+}
+
+.block-si p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    color: #595858;
+}
+.general-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 300px;
+    height: 80px;
+    background: #089308;
+    border-radius: 80px;
+    margin-top: 300px;
+    border: transparent;
+}
+.btn a{
+    color: white;
+    font-size: 23px;
+}
+
+.btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 300px;
+    height: 80px;
+    background: #089308;
+    border-radius: 80px;
+    margin-top: 90px;
+    border: transparent;
+}
+.btnn a{
+    color: white;
+    font-size: 23px;
+}
+
+.btnnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 300px;
+    height: 80px;
+    background: #089308;
+    border-radius: 80px;
+    margin-top: 70px;
+    border: transparent;
+}
+.btnnn a{
+    color: white;
+    font-size: 23px;
+}
+
+
+
+
+.block-di1{
+    height: 250px;
+    width: 400px;
+    background: #9b3339;
+
+}
+
+
+.ol2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+.ol1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+.ol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 28px;
+}
+.general-block-save1{
+    width: 400px;
+    height: 700px;
+    background: rgba(224, 221, 221, 0.49);
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.30);
+}
+.block-di1 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+    border-bottom: 3px solid white;
+    width: 300px;
+    margin-left: 30px;
+}
+.block-si1{
+    padding-top: 30px;
+
+}
+
+.block-si1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    color: #595858;
+}
+.general-block1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 300px;
+    height: 80px;
+    background: #089308;
+    border-radius: 80px;
+    margin-top: 300px;
+    border: transparent;
+}
+.btns a{
+    color: white;
+    font-size: 23px;
+}
+
+.btnss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 300px;
+    height: 80px;
+    background: #089308;
+    border-radius: 80px;
+    margin-top: 338px;
+    border: transparent;
+}
+.btnss a{
+    color: white;
+    font-size: 23px;
+}
+
+.btnsss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 300px;
+    height: 80px;
+    background: #089308;
+    border-radius: 80px;
+    margin-top: 378px;
+    border: transparent;
+}
+.btnsss a{
+    color: white;
+    font-size: 23px;
+}
+
+.general{
+    padding-bottom: 100px;
+}
+
+.save-block-lop{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.img11 img{
+    width: 400px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 15px 0;
+}
+
+.img12 img{
+    width: 400px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 15px 0;
+}
+
+.img13 img{
+    width: 500px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 15px 0;
+    margin-left: 170px;
+}
+
+.save{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 400px;
+}
+
+.save-block1{
+    margin-left: 100px;
+}
+
+.text1{
+    font-size: 26px;
+    color: black;
+}
+
+.als1{
+    color: #9b3339;
+}
+
+.text2 p{
+    font-size: 20px;
+    color: #595858;
+    padding: 10px;
+}
+
+
+.btn11{
+    background: #af454b;
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: transparent;
+    color: white;
+}
+
+
+.sold{
+    width: 105%;
+    height: 860px;
+    background-attachment: scroll;
+    background-image: url('https://cleaning-house.kg/images/tild3032-6530-4735-a235-616463663163__mainbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 10;
+}
+
+.text11{
+    width: 900px;
+    font-size: 50px;
+    color: #af454b;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-right: 250px;
+}
+.text12{
+    font-size: 30px;
+    color: rgba(124, 123, 123, 1);
+    padding-bottom: 50px;
+    text-align: center;
+    margin-right: 250px;
+}
+
+.sold{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sold-save{
+    margin-right: 250px;
+}
+
+.btn14{
+    width: 300px;
+    height: 70px;
+    border-radius: 30px;
+    background: #af454b;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border: 4px solid #9b3339;
+}
+
+.btn15{
+    width: 400px;
+    height: 70px;
+    border-radius: 30px;
+    background: #43b943;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border: 4px solid white;
+    margin: 50px;
+}
+
+
+.img34{
+    width: 110px;
+    height: 110px;
+    padding-bottom: 30px;
+}
+
+.floor{
+    padding-top: 100px;
+
+}
+
+.floor h1{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 100px;
+}
+
+.floor-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.floor-block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.floor-block1 p{
+    width: 220px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.slid{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url('https://cleaning-house.kg/images/tild3764-6436-4435-b566-363561663336__d7a9d795d790d791-d79.jpg');
+    transform: translateY(17px);
+
+
+}
+
+.lil{
+    font-size: 50px;
+    color: #af454b;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 80px;
+}
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: transparent;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 80%;
+    height: 80%;
+}
+.mySwiper h2{
+    color: #af454b;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+swiper-slide {
+    padding-top: 50px;
+    height: 200px;
+    text-align: center;
+    font-size: 28px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slid1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    background: #f5f1f1;
+}
+
+.ll{
+    color: #79292e;
+}
+
+.slid1 p{
+    font-size: 24px;
+    width: 900px;
+    text-align: center;
+    color: #676464;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #9b3339;
+}
+
+.footer-block h1{
+    color: white;
+    font-weight: 700;
+    font-size: 33px;
+    margin-right: 60px;
+}
+
+.footer-block h2{
+    font-weight: 400;
+    font-size: 28px;
+    padding-top: 20px;
+    color: white;
+}
+
+.footer-block p{
+    font-weight: 400;
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+#slid1{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.map{
+
+}
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+}
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    width: 26px;
+    height: 26px;
+
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+
+    width: 100%;
+    height: 2px;
+
+    background-color: #b4b4b4;
+
+    transition-duration: .25s;
+
+    z-index: 1;
+}
+
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+
+    width: 300px;
+    height: 100%;
+
+    margin: 0;
+    padding: 80px 0;
+
+    list-style: none;
+
+    background-color: #ECEFF1;
+    box-shadow: 1px 0 6px rgb(0, 0, 0);
+
+    transition-duration: .25s;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+
+    color: #333;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    transition-duration: .25s;
+}
+
+.menu__item:hover {
+    background-color: #f7f8fa;
+}
+
+.save-block{
+
+}
+
+.mao{
+
+}
